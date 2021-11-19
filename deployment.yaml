@@ -16,7 +16,7 @@ spec:
       containers:
       - command:
         - /app/sample-app
-        image: enigmadr/petclinic:10
+        image: nginx
         name: sample-app
         ports:
-        - containerPort: 8080
+        - containerPort: 80
